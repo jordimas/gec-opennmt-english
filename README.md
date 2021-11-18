@@ -23,7 +23,7 @@ import ctranslate2
 translator = ctranslate2.Translator("ctranslate2/")
 translated = translator.translate_batch([tokenized[0]])
 print(tokenizer.detokenize(translated[0][0]['tokens']))
-The water is hot. My friends are going to be late. Today my mother is in Barcelona.
+"The water is hot. My friends are going to be late. Today my mother is in Barcelona."
 ```
 # Model
 
