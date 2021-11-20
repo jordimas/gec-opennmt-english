@@ -12,6 +12,10 @@ wget https://www.softcatala.org/pub/softcatala/opennmt/models/gec-english/gec-en
 unzip gec-english-2021-11-11.zip
 ```
 
+Install dependencies:
+
+```pip3 install ctranslate2 pyonmttok```
+
 
 ```python
 
